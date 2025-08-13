@@ -1,18 +1,22 @@
-.list{
+.list {
     padding: 0;
 }
 
-.list li{
+.list li {
     display: flex;
     border-bottom: 1px solid #eee;
     padding: 10px;
 }
 
-.list li span{
+.list li span {
     flex: 1;
 }
 
-.list li span.completed{
+.list li span:hover {
+    cursor: pointer;
+}
+
+.list li span.completed {
     text-decoration: line-through;
     color: #ccc;
 }
